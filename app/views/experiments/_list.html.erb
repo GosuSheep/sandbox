@@ -1,0 +1,17 @@
+<div class="experiments">
+	<h1>Experiments</h1>
+	<% @experiments.each do |e| %>
+		<a href="/experiments/<%= e.link %>" class="exp-link">
+			<div class="experiment">
+				<div class="exp-name">
+					<h1><%= e.name %></h1>
+				</div>
+				<div class="exp-description">
+					<p><%= e.description %></p>
+				</div>
+			</div>
+		</a>
+		<%= link_to 'Edit', edit_experiment_path(e) %>
+	<% end %>
+	<%= link_to 'New Experiment', new_experiment_path %>
+</div>

@@ -13,9 +13,38 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
 body{
-	padding-top: 71px;
+	width: 100%;
+	height: 100%;
+}
+
+/* Top header at the top of the page */
+header.main-header{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	border: 1px black solid;
+}
+
+div.container{
+	padding-top: 50px;
+}
+
+.col-6{
+	display: inline-block;
+	width: 49%;
+}
+
+footer.main-footer{
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	border: 1px black solid;
 }
