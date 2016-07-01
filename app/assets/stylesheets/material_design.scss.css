@@ -1,0 +1,6 @@
+.material{
+	border: 1px #ccc solid;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	border-radius: 2px;
+	padding: 1rem;
+}

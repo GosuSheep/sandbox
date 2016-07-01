@@ -14,8 +14,7 @@
  *= require_self
  */
 
-body{
-	width: 100%;
+body,html{
 	height: 100%;
 }
 
@@ -28,6 +27,11 @@ header.main-header{
 	left: 0;
 	background-color: black;
 	border: 1px black solid;
+}
+
+div.body{
+	min-height: 100%;
+	position: relative;
 }
 
 div.container{

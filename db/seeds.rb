@@ -5,5 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Experiment.delete_all
 Experiment.create(name: 'React JS', description: 'This page uses React.JS', link: 'react')
 Experiment.create(name: 'CSS Outline', description: 'This page outlines the CSS used on the site and the reasons for making those style choices.', link: 'css_outline')
+Experiment.create(name: 'Material Design', description: "This page attempts to explain and practice some principles from Google's Material Design.", link: 'material_design')
